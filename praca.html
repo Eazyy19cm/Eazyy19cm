@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Zadanie 7.2</title>
+        <meta charset="UTF-8">
+        <script>
+        function oblicz(){
+            var a = document.getElementById("ile").value;
+            var b = document.getElementById("przycisk").checked;
+            if(b==true)
+                
+            {
+                document.getElementById("wynik").innerHTML="dowozimy za darmo";
+            }
+            else
+            {
+                suma = a+2;
+                
+                document.getElementById("wynik").innerHTML="oszt dowozu"+suma+"zł";
+            }
+        }
+        </script>
+    </head>
+    <body>
+    <h3>Oblicz koszt dostawy</h3>
+    <input type="checkbox" id="przycisk">Jestem  zielonej góry
+    <p>albo</p>
+    Podaj ilość kilometrów od Zielonej góry<br>
+    <input type="number" id="ile" value="">
+<br>
+<input type="button" value="Oblicz" onclick="oblicz()">
+       <p id="wynik"></p>
+    </body>           
+    <input    
+ 
+ 
+    
